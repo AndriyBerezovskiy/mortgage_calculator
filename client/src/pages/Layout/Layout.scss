@@ -1,0 +1,19 @@
+.home{
+  width: 100%;
+
+  .header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 28px;
+    color: #ffffff;
+    background-color: #256033;
+
+    a[class='active']{
+      color: #000;
+      text-decoration: underline;
+    }
+  }
+}

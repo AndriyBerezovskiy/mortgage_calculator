@@ -1,0 +1,21 @@
+@mixin error() {
+  display: inline-block;
+  color: #ec1414;
+  padding-bottom: 5px
+}
+
+@mixin input($padding: 0) {
+  width: 100%;
+  border-radius: 10px;
+  height: 40px;
+  padding: $padding;
+  box-shadow: 5px 5px 15px 5px #383434;
+}
+
+@mixin button($padding: 15px) {
+  padding: $padding;
+  border-radius: 10px;
+  background-color: #4f5254;
+  color: #fff;
+  box-shadow: 5px 5px 15px 5px #383434;
+}

@@ -1,0 +1,15 @@
+.banks{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  background-color: #fff;
+  overflow: scroll;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 5px #383434;
+
+  h1{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
